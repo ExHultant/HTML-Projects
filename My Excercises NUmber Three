@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="Esp">
+	<head>
+		<title>Wiki Hero</title>
+			<meta charset="UTF-8">
+			<meta name="Description" content="">
+			<link href="archivos css/estilo.css" rel="stylesheet" type="text/css">
+			<link rel="shorcut.icon" type="img/x-icon" href="imagenes/Deadpool.jpg">
+			<style>
+			body{background-image:url(./Imagenes/IMG-20190217-WA0057.jpg);background-attachment:fixed;}
+			</style>
+	</head>
+	<body> 
+			<header>
+				<div class="logo">
+					<span>¡WikiHero!</span>
+				</div>
+			<nav class="menu">
+				<ul class="lista">
+					<li><a href="#">Inicio</a></li>
+					<li><a href="#">Noticias</a></li>
+					<li><a href="#">Super Heroes</a></li>
+					<li><a href="#">Categorias</a></li>
+					<li><a href="#">Comics</a></li>
+				</ul>
+			</nav>
+			</header>
+			<section>
+				<section class="main">
+					<article>
+						<h2>¿Quienes Somos?</h2>
+						<p> Aqui te informaras de todo lo que quieras saber de la biografia de todos los superheroes principales del mundo desde <i>MARVEL</i> hasta <i>DC comics</i>... Superheroes, Antiheroes, Villanos, Nemesis, las mejores biografias que podras encontrar en tu ¡historia! </p>
+						<img alt="Imagen de Superhores y Villanos" src="imagenes/865455.jpg" title="Superheroes y Villanos(Marvel&DC)" class="imagen1">
+					</article>
+					<article>
+						<h3>¿Que Queremos?</h3>
+						<p> Usuario en el universo de los superheroes existen muchas dimensiones paralelas en la cual existen diversos superheroes en el mundo de la fantasia comica, ¿que queremos decir con esto? esta pagina fue basada en informarte en todos los personajes de comics existentes, sabras de muchas anecdotas sobre todos estos personajes existentes. </p>
+						<img alt="Imagen De Batman El Caballero de la Noche" src="Imagenes/6993605-the-dark-knight-trilogy.jpg" title="The Knigth Dark Batman" class="imagen2">
+					</article>
+					<article class="stanlee">
+						<i>"Cualquiera puede usar la mascara, Tu puedes utilizar la mascara."</i>
+						<blockquote>Stan Lee...</blockquote>
+						<img src="imagenes/FB_IMG_15458006587351451.jpg" alt="Imagen de Stan Lee" title="Excelsior R.I.P(1922-2018)" class="imagen3">
+					</article>
+				</section>
+				<aside>
+					<h4>¿Sabias Que?</h4>
+					<p> En la pelicula "Venom" <i>El nemesis</i> del <i>Hombre-Araña</i> dicen que es un antiheroe, pero en realidad es un villano venido de otro mundo llamado "La Prision" donde existen muchas mas como el, donde lo quieren es comer seres vivos de otros mundos en este caso la tierra. </p>
+					<img alt="Imagen de Venom" src="imagenes/e226f66566e76da97ff884790ef012aa.jpg" title="Venom Nemsis Spider-man" class="imagen3">
+				</aside>	
+			</section>
+				<footer class="piedepagina">
+					<p> Dedicado al Excelsior Stan Lee creador de compañia <i>MARVEL.</i> </p>
+					<p> WikiHero-2019 </p>
+				</footer>
+	</body>	
+</html> 
