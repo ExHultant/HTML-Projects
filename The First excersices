@@ -1,0 +1,11 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<title>Pagina especifica</title>
+	</head>
+	<body>
+		<p style="text-align:center;color:blue;font-size:30px;">Hola, Ricardo</p>
+		<img src="imagenes/FB_IMG_15567664875978703.jpg">
+		<a href="Https//:www.wikipedia.com">ir a Wikipedia</a>
+	</body>
+</html>
