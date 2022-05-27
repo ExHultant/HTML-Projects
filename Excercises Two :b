@@ -1,0 +1,12 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<title>Extinsion Oso Polar</title>
+	</head>
+	<body>
+		<H1> La Extinsion del Oso Polar </H1>
+		<img style="margin:auto;display:block;width:500px;height:500px" img src="imagenes/fondos-de-pantalla-para-computadora-hd-con-wallpaper-para-pc-24-e-126749-1920x1200px-fondos-de-pantalla-para-computadora-hd.png">
+		<p>El Oso polar es un animal exotico, se encuentra mayormente en los polos sur y norte muy pocas veces conseguido en zonas como Canada, Estados Unidos o Europa..Este animal en la actualidad se ha encontrado en situciones arriesgada como el cambio climatico a eso se lo puede dar a conocer como a ellos como el problema de peligro en extinsion</p>
+		<button style="font-size:16px"type="button">leer mas</button> 
+	</body>
+</html> 
