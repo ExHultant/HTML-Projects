@@ -1,0 +1,43 @@
+<!doctype HTML>
+<HTML Lang="esp">
+<head>
+<title>Tarea SCRIPT</title>
+<meta charset="UTF-8">
+<style>
+.padre{background-color:red;widht:500px;height:500px;top:100px;left:200px;position:relative;}
+.hijo1{background-color:yellow;widht:500px;height:500px;position:absolute;z-index:9;}
+.hijo2{widht:500px;height:500px;background-color:purple;position:absolute;z-index:8;}
+.hijo3{widht:500px;height:500px;background-color:oranje;position:absolute;z-index:7;}
+.boton{widht:300px;height;300px;positon:relative;left:400px;top:500px;background-color:#ee3377;}
+</style>
+</head>
+<body>
+<div class="padre">
+<div class="hijo1" id="hijo1"></div>
+<div class="hijo2" id="hijo2"></div>
+<div class="hijo3" id="hijo3"></div>
+</div>
+<button class="boton" id="uno">Cambiar</button>
+<script>
+function Boton(){
+document.getElementById("uno").addEventListener("click",Color);
+			}
+function Amarillo(){
+document.getElementById("hijo1").style.backgroundColor="oranje";
+document.getElementById("hijo2").style.backgroundColor="purple";
+document.getElementById("hijo3").style.backgroundColor="yellow";
+			}
+function Morado(){
+document.getElementById("hijo1").style.backgroundColor="purple";
+document.getElementById("hijo2").style.backgroundColor="oranje";
+document.getElementById("hijo3").style.backgroundColor="yellow";
+			}
+function Naranja(){
+document.getElementById("hijo1").style.backgroundColor="yellow";
+document.getElementById("hijo2").style.backgroundColor="purple";
+document.getElementById("hijo3").style.backgroundColor="oranje";
+			}
+	</script>
+
+</body>
+</HTML>

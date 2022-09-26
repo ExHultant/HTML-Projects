@@ -1,0 +1,74 @@
+﻿<!doctype HTML>
+<HTML lang="esp">
+	<head>
+		<title>Maketa</title>
+			<meta charset="UFT-8">
+			<link href="Archivos CSS/archivomaketa.css" rel="stylesheet"type="text/css">
+			<style>
+		header{background-image:url("./Imagenes/97b9fafff0014be16601feb8e9e6bfdc.jpg");background-size:100% 100%}
+			</style>
+	</head>
+	<body>
+			<script>
+ function calcula_precio(){
+	var cst_suite=180.000;
+	var hab
+	var cst_doble=85.000;
+	var cst_sen=50.000;
+	var cst_mtr=105.000;
+	var llegd=document.getElementById("llegd")=value;
+	var sald=document.getElementById("sald")=value;
+	var hab=document.getElementById("hab")=value;
+	var totaldia=sald-llegd;
+	var totalapagar;
+		if(hbt="sencilla")	
+				totalapagar=cst_sen*totaldia;
+		Elseif(hbt="doble")	
+				totalapagar=cst_doble*totaldia;
+		Elseif(hbt="matrimonial")	
+				totalapagar=cst_mtr*totaldia;
+		Elseif(hbt="suite")	
+				totalapagar=cst_suite*totaldia;
+		alert("Gracias*Visitarnos")
+	Retorn_totalapagar;}
+	</script>
+		<div class="principal">
+			<header class="header">Turismo
+			<div class="span">
+				<span class="letra">S</span>	<p class="texto">&<p>
+				<span class="letra1">M</span><hr class="linea"><p class="texto">Turismo</p>
+			</div>
+			<img class="foto1" src="Imagenes/descarga.jpg">
+			<img class="foto2" src="Imagenes/facebook.png">
+			</header>
+				<nav class="nav">
+		<ul class="ul">
+			<li class="ulli"><a href="#">Inicio</a></li>	<li class="ulli"><a href="#">Producto</a></li>	<li class="ulli"><a href="#">Noticias</a></li>	<li class="ulli"><a href="#">Servicios</a></li>
+		</ul>
+			</nav>
+			<aside class="aside">5 Estrellas en Turismo</aside>
+		<main class="main">El mejor sitio en donde podras explorar todos los paises que quieras con tan solo llenar un pequeña planilla,¡APROVECHA</main>
+			<aside class="aside2">La mejores Maravillas del Mundo podras visitar</aside>
+			<footer class="footer">Planilla de Registro
+			<ul class="ul2">
+					<li>Direccion</li>	<li>Correo</li>		<li>Reservaciones</li>	<li>Servicios</li>	
+			</ul>
+			<form class="form">
+				<p>Reservar</p>
+				<label>Nombre</label><input type="text"/>
+				<label>Habitacion</label>
+			<select>
+				<option value="1ra clase">Primera Clase</option>
+				<option value="2da clase">Segunda Clase</option>
+				<option value="3ra clase">Tercera Clase</option>
+				<option value="4ta clase">Cuarta Clase</option>
+				<option value="5ta clase">Quinta Clase</option>
+			</select>
+					<p>Fecha<p>
+				<label>Llegada</label><input type="date"/>
+				<label>Salida</label><input type="date"/>
+				<button type="submit">Enviar</button>
+			</form>	
+		</footer>
+	</body>
+</HTML>

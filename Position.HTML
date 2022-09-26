@@ -1,0 +1,47 @@
+<!doctype HTML>
+<HTML Lang="esp">
+<head>
+	<title>Position</title>
+	<meta charset="UTF-8">
+	<style>
+		.padre{background-color:black;position:relative;widht:200px;height:400px;left:300px;top:150px;}
+		.hijo1{background-color:red;position:absolute;widht:200px;height:400px;}
+		.hijo2{background-color:blue;position:absolute;widht:200px;height:400px;}
+		.hijo3{background-color:pink;position:absolute;widht:200px;height:400px;}
+		.boton1{positon:relative;left:400px;top:500px;background-color:red;}
+		.boton2{positon:relative;left:400px;top:500px;background-color:blue;}
+		.boton3{positon:relative;left:400px;top:500px;background-color:pink;}
+	</style>
+</head>
+<body>
+	<div class="padre">
+		<div class="hijo1" id="hijo1"></div>
+		<div class="hijo2" id="hijo2"></div>
+		<div class="hijo3" id="hijo3"></div>
+	</div>
+		<button type="button" class="boton1" id="uno">Rojo</button>
+		<button type="button" class="boton2" id="dos">Azul</button>
+		<button type="button" class="boton3" id="tres">Rosado</button>
+	<script>
+document.getElementById("uno").addEventListener("click",Rojo);
+document.getElementById("dos").addEventListener("click",Azul);
+document.getElementById("tres").addEventListener("click",Rosado);
+
+function Rojo(){
+document.getElementById("hijo1").style.zIndex="30";
+document.getElementById("hijo2").style.zIndex="20";
+document.getElementById("hijo3").style.zIndex="10";
+			}
+function Azul(){
+document.getElementById("hijo1").style.zIndex="20";
+document.getElementById("hijo2").style.zIndex="30";
+document.getElementById("hijo3").style.zIndex="10";
+			}
+function Rosado(){
+document.getElementById("hijo1").style.zIndex="10";
+document.getElementById("hijo2").style.zIndex="20";
+document.getElementById("hijo3").style.zIndex="30";
+			}
+	</script>
+</body>
+</HTML>
